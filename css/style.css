@@ -1,9 +1,23 @@
 nav {
     text-decoration-line: none;
 }
-body {
-    font: 1rem/1.5 var(--bs-font-sans-serif);
-  }
-  a {
-    color: var(--bs-blue);
-  }
+.title_p {
+    text-align: center;
+}
+.art_marca {
+    text-align: center;
+    display: inline-block;
+}
+.text_nom {
+    text-align: center;
+}
+.card {
+    align-items: center;
+    width: 25rem;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover {
+    color: aquamarine;
+}
