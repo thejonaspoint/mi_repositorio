@@ -1,5 +1,6 @@
 nav {
     text-decoration-line: none;
+    text-align: end;
 }
 .title_p {
     text-align: center;
@@ -8,16 +9,58 @@ nav {
     text-align: center;
     display: inline-block;
 }
+.card-img-top{
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    padding: 10px 20px 20px 30px;
+}
 .text_nom {
     text-align: center;
 }
 .card {
     align-items: center;
-    width: 25rem;
+    text-align: justify;
+}
+.card:hover{
+    color: rgb(74, 180, 175);
 }
 .card-title {
     text-align: center;
 }
-.card:hover {
-    color: aquamarine;
+.card-body{
+   text-align: justify;
+   align-items: center;
 }
+.card-text{
+    text-align: justify;
+    background-image: none;
+}
+.card1{
+    
+}
+.figure {
+    width: 200px;
+}
+.art_comp{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-text{
+    text-align: justify;
+
+}
+/* aca va el css del footer*/
+.footer_d {
+    align-items: center;
+    text-align: center;
+}
+/* aca va la Media Queries*/
+@media (min-width: 768px) and (max-width:1200px) {
+}
+
+
+
