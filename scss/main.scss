@@ -1,0 +1,18 @@
+//reset
+@import 'partials/reset';
+
+// parte principal pagina
+@import 'partials/grid';
+@import 'partials/encabezado';
+@import 'partials/principal';
+@import 'partials/redes';
+//extenciones y estilos
+@import 'partials/card';
+@import 'partials/extends';
+@import 'partials/variables';
+@import 'partials/maps';
+@import 'partials/googlefont';
+//el Footer
+@import 'partials/footer';
+//media queries
+@import 'partials/mediaq';
