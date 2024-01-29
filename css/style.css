@@ -3,20 +3,18 @@
     padding: 0;
 }
 /* aca el reinicio */
-nav {
-    background-color: brown;
-    text-decoration-line: none;
+.navbar{
+    background-color: aliceblue;
     text-align: center;
     font-size: x-large;
-    border: solid rgb(162, 218, 218);
-}
 
+}
 .nav-link:hover {
     background-color:#0cbde9;
     color: #202930;
     padding: 10px 20px;
     border-radius: 10px;
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 
 body {
@@ -111,14 +109,15 @@ body {
     margin: 0%;
     justify-content: space-around;
 }
-
-/* aca va el css del footer*/
-.footer_d {
+.btn {
+    display: flex;
     align-items: center;
-    text-align: center;
-    padding-top: 20px;
-    grid-area: footer;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+
 }
+
 /* Aca Sistema de Grillas aplicada al repuestos/hmtl*/
 .container_g {
     display: grid;
@@ -131,7 +130,13 @@ body {
         "footer footer"
     ;
 }
-
+/* aca va el css del footer*/
+.footer_d {
+    grid-area: footer;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
 /* aca va la Media Queries*/
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
