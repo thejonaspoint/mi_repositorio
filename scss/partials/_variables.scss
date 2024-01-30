@@ -1,5 +1,22 @@
-
+//variables
 $primaryColor:#2883c9;
 $color-segundo:#c4c4c4a4;
 $openSans: 'Open sans', sans-serif;
 $backgoundColorFooter: linear-gradient(115deg, rgb(48, 120, 182), rgb(179, 179, 179) 100%);
+
+$colors:(
+      instagram:#9b2a59,
+      facebook: #2a4eb1,
+      whatsapp: #0de031,
+
+);
+
+@each $colores, $valor_colores in $colors{
+      .bi-#{$colores}{
+            width:16px;
+            heigth: 16px;
+            &:hover{
+                  box-shadow: 2px 1px 15px $valor_colores;
+            }
+      }
+}
