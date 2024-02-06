@@ -1,0 +1,33 @@
+.footer_d {
+    grid-area: footer;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    background: $backgoundColorFooter;
+    svg{
+         width: 15px; 
+         background-color: rgba(251, 255, 255, 0);
+    }
+    img{
+          position:fixed;
+          width:80px;
+          height:80px;
+          line-height: 63px;
+          bottom:25px;
+          right:25px;
+          background:#345dce;
+          color: colorPrincipal;
+          border-radius:50px;
+          text-align:center;
+          font-size:35px;
+          box-shadow: 10px 1px 10px rgba(0,0,0,0.3);
+          z-index:100;
+          transition: all 300ms ease;
+          display: inline-block;
+          margin: 0 0.5rem;
+          animation: bounce;
+          animation-duration: 2s; 
+        }    
+}
+

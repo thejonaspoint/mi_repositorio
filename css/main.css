@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;600;800&display=swap");
+.btnGenerico {
+  background-color: #2982c7;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+.btnGenerico:hover {
+  background-color: #ffffff;
+  color: #202930;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+h1 {
+  color: #202930;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 36px;
+  color: #202930;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fbfbfb;
+  font-family: "Open Sans", sans-seri;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bg-propio {
+  background: linear-gradient(115deg, rgba(42, 91, 197, 0.908) 0%, rgb(126, 147, 165) 100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+}
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
+.navbar-brand img {
+  border-radius: 120px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 18px;
+  color: #202930;
+  margin: 10px;
+}
+.nav-item a:hover {
+  color: #f9f9f9;
+  transition: all 1s;
+}
+
+.bannerPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.274);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 70vh;
+}
+.bannerPrincipal .tituloPrincipal {
+  color: #247596;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  background-image: url("/assents/imagen/ml_logo.jpeg");
+  border-radius: 8px;
+}
+.bannerPrincipal p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #247596;
+  padding-bottom: 10px;
+}
+
+.card {
+  border: none;
+  padding: 10px;
+  box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+}
+.card .card-body h3 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 28px;
+  color: #202930;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+.art_exp {
+  text-align: center;
+}
+.art_exp img {
+  display: inline;
+  padding-top: 10px;
+  width: 9rem;
+  border-radius: 120px;
+  justify-content: space-around;
+}
+
+.card_producto {
+  border-radius: 10px;
+  width: 20rem;
+  height: 400px;
+  background-color: #ffffff;
+  margin: 20px;
+  box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+}
+.card_producto img {
+  width: 15rem;
+  height: 200px;
+}
+
+.redes_p {
+  background-color: #5c73d8;
+}
+.redes_p img {
+  border-radius: 80px;
+}
+
+.fabricacion .artesanal {
+  padding-left: 10px;
+}
+
+.fabricacion .artesanal h2 {
+  text-align: left;
+}
+
+
+.btnGenerico {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.fondovideo {
+  background-color: rgba(0, 0, 0, 0.274);
+  padding: 30px 0;
+}
+.fondovideo h3 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 28px;
+  color: #202930;
+}
+
+.video {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.footer_d {
+  grid-area: footer;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  background: linear-gradient(115deg, rgba(42, 91, 197, 0.908) 0%, rgb(126, 147, 165) 100%);
+}
+.footer_d svg {
+  width: 15px;
+  background-color: rgba(251, 255, 255, 0);
+}
+.footer_d img {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  line-height: 63px;
+  bottom: 25px;
+  right: 25px;
+  background: #345dce;
+  color: colorPrincipal;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+.btnGenerico {
+  background-color: #2982c7;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+.btnGenerico:hover {
+  background-color: #ffffff;
+  color: #202930;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+/* producto items*/
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1em;
+  margin: 2em;
+}
+
+/*  GALERIA  */
+.galeria {
+  width: 100%;
+  height: auto;
+}
+.galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 10px;
+}
+.galeria .col-lg-4 img {
+  width: 20rem;
+}
+.galeria .col-lg-4 img:hover {
+  filter: blur(2px);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  -webkit-filter: grayscale(1);
+}
+
+.letra_prod {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+.row .servirles {
+  height: auto;
+  max-width: 400px;
+  margin-right: 1em;
+}
+.row .servirles h3 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 28px;
+  color: #4a61e4;
+}
+.row .servirles p {
+  font-size: 16px;
+}
+.row form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: #5c73d8;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.row form label {
+  margin: 10px;
+  font-size: 16px;
+}
+.row form label input {
+  border: solid 1px #303030;
+  border-radius: 10px;
+  height: 30px;
+}
+.row form textarea {
+  height: 60px;
+  width: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.row form .btnGenerico {
+  border: none;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_redes {
+  display: flex;
+  align-items: center;
+}
+.img_redes img {
+  width: 8rem;
+}
+
+.tarjeta {
+  border-radius: 10px;
+  width: 21rem;
+  height: 400px;
+  background-color: #ffffff;
+  margin: 20px;
+  box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+}
+.tarjeta h5 {
+  font-family: "Alfa Slab One", cursive;
+  color: #202930;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+}
+.tarjeta h5 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.tarjeta .titulo-tarjeta {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #5c73d8;
+  padding: 15px 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

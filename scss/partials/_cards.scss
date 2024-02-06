@@ -1,0 +1,40 @@
+.card {
+    border: none;
+    padding: 10px;
+    box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+
+.card-body h3 {
+    font-family: $alfaSlab;
+    font-size: 28px;
+    color: $primaryColor;
+    }
+}
+.card-body p {
+    text-align: justify;
+}
+.art_exp {
+   text-align: center;
+   img{
+    display: inline;
+    padding-top: 10px;
+    width: 9rem;
+    border-radius: 120px;
+    justify-content: space-around;
+   }
+}
+.card_producto{
+    border-radius: 10px;
+    width: 20rem;
+    height: 400px;
+    background-color:#ffffff;
+    margin: 20px;
+    box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+    img{
+        width: 15rem;
+        height: 200px;
+    }
+}
